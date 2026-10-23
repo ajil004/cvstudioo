@@ -1,0 +1,13 @@
+{
+  "name": "cvstudioo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CV Studio - Professional Online Resume Builder",
+  "scripts": {
+    "build": "flutter build web --release --no-tree-shake-icons",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.80.0"
+  }
+}
